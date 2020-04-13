@@ -15520,7 +15520,7 @@ module.exports = function(e)
 										type: "error",
 										message: "无法切换到此配置！",
 										detail: i.message || "",
-										buttons: ["确认", "编辑文本"]
+										buttons: ["确认", "编辑文本文件"]
 									}, (function(e)
 									{
 										1 === e && t.openProfile(t.pfs.files[e])
