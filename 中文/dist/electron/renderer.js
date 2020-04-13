@@ -11391,9 +11391,9 @@ module.exports = function(e)
 					{
 						title: "Clash for Windows",
 						type: "question",
-						message: ""我们为您找到了一个新版本，要安装吗？"",
+						message: "我们为您找到了一个新版本，要安装吗？",
 						detail: "Release Note:\r\n" + t,
-						buttons: ["下载并安装（可能需要几分钟）","忽略此版本","不再显示此对话框"],
+						buttons: ["下载并安装（可能需要几分钟）", "忽略此版本", "不再显示此对话框"],
 						cancelId: 2
 					}, (function(t)
 					{
